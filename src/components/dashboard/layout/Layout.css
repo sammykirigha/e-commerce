@@ -1,0 +1,27 @@
+.main-layout{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-header {
+    flex: 0 0 10%;
+    background-color: black;
+}
+
+.container {
+    flex: 1;
+    height: 100%;
+    display: flex;
+}
+
+.side-nav {
+    flex: 0 0 20%;
+    background-color: grey;
+}
+
+.component {
+    margin: .5rem;
+    flex: 1;
+    background-color: #eeeeee;
+}

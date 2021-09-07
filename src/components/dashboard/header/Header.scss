@@ -1,0 +1,44 @@
+.header {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(65, 63, 63);
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+
+        &-icon {
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+            .open {
+                margin-right: 2rem;
+            }
+        }
+
+        &-items {
+            .list {
+                display: flex;
+                list-style: none;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .icon {
+                margin-right: 2rem;
+            }
+
+            .item {
+                margin-right: 1rem;
+                color: rgb(199, 193, 193);
+            }
+
+            .item:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
