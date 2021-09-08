@@ -7,6 +7,7 @@
 .nav-header {
     flex: 0 0 10%;
     background-color: black;
+    /* height: 5rem; */
 }
 
 .container {
@@ -16,12 +17,18 @@
 }
 
 .side-nav {
-    flex: 0 0 20%;
+    flex: 0 0 23%;
     background-color: grey;
+
+    position: fixed;
+    top: 60px;
+    bottom: 0px;
+    width: 200px;
 }
 
 .component {
     margin: .5rem;
     flex: 1;
     background-color: #eeeeee;
+    margin-left: 220px;
 }

@@ -1,8 +1,111 @@
-.main {
-    width: 100%;
+.home {
     height: 100%;
-    background-color: rgb(252, 248, 248);
+    // background-color: yellow ;
+}
+.head {
+    width: 100%;
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+    h3 {
+        color: rgb(241, 247, 241);
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .search{
+
+        display: flex;
+        align-items: center;
+       input{
+        width: 250px;
+        padding: 9px 9px;
+        border-radius: 4px;
+        outline: none;
+    }
+      .icon{
+          height: 30px;
+          width: 30px;
+          color: white;
+          cursor: pointer;
+      }
+    }
+
+    .cart-icon{
+        height: 35px;
+        width: 35px;
+        color: white;
+        cursor: pointer;
+    }
+   
+}
+
+.page{
+    h4{
+        text-align: center;
+        font-size: 23px;
+        font-weight: 500;
+        margin: 10px 0;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 5px;
+}
+
+.card {
+   height: 100%;
+   object-fit: contain; 
+   background-color: blue;
+   border-radius: 5px;
+
+}
+
+.card__image{
+    padding: 5px;
+    object-fit: contain;
+
+    img{
+        border-radius: 3px;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.card__content{
+    background-color: rgb(245, 227, 214);
+    height: 200px;
+    padding: 5px;
+
+}
+
+.card__title{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.card__info{
+    padding: 5px;
     display: flex;
     flex-direction: column;
+}
+
+.buttons{
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    height: 30px;
+    border-radius: 3px;
+    outline: none;
+    border: oldlace;
+    cursor: pointer;
 }
